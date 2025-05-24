@@ -1811,6 +1811,17 @@ class Str
     }
 
     /**
+     * Make each word's first character uppercase in a string.
+     *
+     * @param  string  $string
+     * @return string
+     */
+    public static function ucwords($string)
+    {
+        return ucwords($string);
+    }
+
+    /**
      * Split a string into pieces by uppercase characters.
      *
      * @param  string  $string
